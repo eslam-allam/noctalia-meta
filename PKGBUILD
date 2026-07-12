@@ -1,6 +1,6 @@
 # Maintainer: Eslam Allam <eslamallam73@gmail.com>
 pkgname=noctalia-meta
-pkgver=1.15
+pkgver=1.16
 pkgrel=1
 pkgdesc="A meta package that depends on several packages for the Noctalia setup."
 arch=('any')
@@ -29,7 +29,7 @@ depends=(
   'xdg-utils'
   'wf-recorder'
   'pamac'
-  'wayscriber-bin'
+  'wayscriber'
   'wayscriber-configurator'
   'i2c-tools'
   'starship'
