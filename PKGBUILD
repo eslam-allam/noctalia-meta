@@ -1,6 +1,6 @@
 # Maintainer: Eslam Allam <eslamallam73@gmail.com>
 pkgname=noctalia-meta
-pkgver=1.16
+pkgver=1.17
 pkgrel=1
 pkgdesc="A meta package that depends on several packages for the Noctalia setup."
 arch=('any')
@@ -38,8 +38,8 @@ depends=(
   'xdg-desktop-portal-hyprland'
   'xdg-desktop-portal-gtk'
   'adw-gtk-theme'
-  'noctalia-shell'
-  'polkit-gnome'
+  'noctalia'
+  'noctalia-greeter'
   'rofi-rbw'
   'nwg-look'
   'monique'
