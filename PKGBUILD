@@ -1,13 +1,12 @@
 # Maintainer: Eslam Allam <eslamallam73@gmail.com>
 pkgname=noctalia-meta
-pkgver=1.17
+pkgver=1.18
 pkgrel=1
 pkgdesc="A meta package that depends on several packages for the Noctalia setup."
 arch=('any')
 url="https://docs.noctalia.dev/docs/"
 license=('custom:meta')
 depends=(
-  'hyprsaver'
   'hyprland'
   'nautilus'
   'uwsm'
